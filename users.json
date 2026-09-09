@@ -1,0 +1,22 @@
+[
+  {
+    "user_id": "U100",
+    "name": "Priya Raman",
+    "email": "priya.raman@example.com",
+    "loyalty_tier": "Gold",
+    "preferences": {
+      "categories": ["Footwear", "Electronics"],
+      "price_sensitivity": "medium"
+    }
+  },
+  {
+    "user_id": "U200",
+    "name": "Arjun Mehta",
+    "email": "arjun.mehta@example.com",
+    "loyalty_tier": "Silver",
+    "preferences": {
+      "categories": ["Kitchen", "Bags"],
+      "price_sensitivity": "high"
+    }
+  }
+]
