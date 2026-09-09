@@ -1,0 +1,84 @@
+[
+  {
+    "order_id": "ORD-10001",
+    "user_id": "U100",
+    "items": [
+      {
+        "product_id": "P1001",
+        "name": "AeroFit Running Shoes",
+        "qty": 1,
+        "price": 79.99
+      }
+    ],
+    "status": "Shipped",
+    "placed_on": "2026-08-28",
+    "expected_delivery": "2026-09-10",
+    "tracking_number": "TRK-88291002",
+    "carrier": "FastShip Logistics",
+    "total": 79.99,
+    "return_eligible": true,
+    "return_window_days": 30
+  },
+  {
+    "order_id": "ORD-10002",
+    "user_id": "U100",
+    "items": [
+      {
+        "product_id": "P2001",
+        "name": "PulseBeat Wireless Earbuds",
+        "qty": 2,
+        "price": 49.99
+      }
+    ],
+    "status": "Delivered",
+    "placed_on": "2026-08-15",
+    "expected_delivery": "2026-08-20",
+    "delivered_on": "2026-08-19",
+    "tracking_number": "TRK-77281111",
+    "carrier": "FastShip Logistics",
+    "total": 99.98,
+    "return_eligible": true,
+    "return_window_days": 30
+  },
+  {
+    "order_id": "ORD-10003",
+    "user_id": "U200",
+    "items": [
+      {
+        "product_id": "P3002",
+        "name": "BrewMaster Coffee Maker",
+        "qty": 1,
+        "price": 59.99
+      }
+    ],
+    "status": "Processing",
+    "placed_on": "2026-09-07",
+    "expected_delivery": "2026-09-15",
+    "tracking_number": null,
+    "carrier": null,
+    "total": 59.99,
+    "return_eligible": false,
+    "return_window_days": 30
+  },
+  {
+    "order_id": "ORD-10004",
+    "user_id": "U200",
+    "items": [
+      {
+        "product_id": "P4001",
+        "name": "UrbanCarry Backpack",
+        "qty": 1,
+        "price": 44.99
+      }
+    ],
+    "status": "Delivered",
+    "placed_on": "2026-07-01",
+    "expected_delivery": "2026-07-06",
+    "delivered_on": "2026-07-05",
+    "tracking_number": "TRK-55211987",
+    "carrier": "GlobalPost",
+    "total": 44.99,
+    "return_eligible": false,
+    "return_window_days": 30
+  }
+]
