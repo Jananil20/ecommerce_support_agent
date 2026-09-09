@@ -1,3 +1,22 @@
+"""
+llm_client.py
+-------------
+Thin abstraction so the agent loop doesn't care which LLM backend issues
+the tool calls. Three backends are supported:
+
+  - "anthropic": real Claude function-calling via the Anthropic SDK
+  - "openai":    real function-calling via the OpenAI SDK
+  - "offline":   a small built-in rule-based intent matcher that needs NO
+                 API key at all, so the whole project runs out of the box.
+                 It picks a tool (or none) using keyword rules, which is
+                 obviously far less capable than a real LLM but is enough
+                 to demonstrate the full tool-calling + memory pipeline
+                 end to end without any credentials.
+
+Set the backend with the AGENT_LLM_BACKEND env var, or pass it explicitly
+to AgentLLM(). Default: "offline".
+"""
+
 from __future__ import annotations
 import os
 import re

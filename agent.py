@@ -1,3 +1,21 @@
+"""
+agent.py
+--------
+The SupportAgent ties together:
+  - AgentLLM        (core/llm_client.py)   -> decides what to say / which tool to call
+  - TOOL_REGISTRY    (tools/tools.py)       -> executes tool calls against mock data
+  - ShortTermMemory + LongTermMemory (memory/memory_store.py) -> conversation + durable memory
+
+Flow for a single user turn:
+  1. User message is appended to short-term memory.
+  2. Long-term memory facts about the user are injected as context.
+  3. The LLM decides: reply directly, OR call one or more tools.
+  4. If tools are called, we execute them, feed results back to the LLM,
+     and loop until we get a final text reply (bounded by MAX_TOOL_HOPS).
+  5. The turn is logged to long-term memory (interaction log + any facts
+     worth remembering, e.g. last order discussed, open return cases).
+"""
+
 from __future__ import annotations
 import json
 from typing import Any, Dict, List, Optional
