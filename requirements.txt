@@ -1,9 +1,0 @@
-# Core project uses only the Python standard library (offline backend).
-# Install ONE of these only if you want to use a real LLM backend for
-# function-calling instead of the built-in offline rule-based planner.
-
-anthropic>=0.34.0   # needed only if AGENT_LLM_BACKEND=anthropic
-openai>=1.40.0      # needed only if AGENT_LLM_BACKEND=openai
-
-# For running the test suite
-pytest>=7.0.0
