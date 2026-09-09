@@ -1,0 +1,90 @@
+[
+  {
+    "id": "P1001",
+    "name": "AeroFit Running Shoes",
+    "category": "Footwear",
+    "price": 79.99,
+    "currency": "USD",
+    "stock": 42,
+    "rating": 4.5,
+    "tags": ["running", "shoes", "sports", "lightweight"],
+    "description": "Lightweight breathable running shoes with cushioned sole."
+  },
+  {
+    "id": "P1002",
+    "name": "AeroFit Trail Shoes",
+    "category": "Footwear",
+    "price": 94.99,
+    "currency": "USD",
+    "stock": 15,
+    "rating": 4.6,
+    "tags": ["running", "trail", "shoes", "outdoor"],
+    "description": "Rugged trail running shoes with reinforced grip."
+  },
+  {
+    "id": "P2001",
+    "name": "PulseBeat Wireless Earbuds",
+    "category": "Electronics",
+    "price": 49.99,
+    "currency": "USD",
+    "stock": 120,
+    "rating": 4.2,
+    "tags": ["audio", "wireless", "earbuds", "electronics"],
+    "description": "Compact wireless earbuds with 24hr battery life via case."
+  },
+  {
+    "id": "P2002",
+    "name": "PulseBeat Pro Headphones",
+    "category": "Electronics",
+    "price": 129.99,
+    "currency": "USD",
+    "stock": 8,
+    "rating": 4.7,
+    "tags": ["audio", "headphones", "noise-cancelling", "electronics"],
+    "description": "Over-ear noise-cancelling headphones with premium sound."
+  },
+  {
+    "id": "P3001",
+    "name": "BrewMaster Coffee Grinder",
+    "category": "Kitchen",
+    "price": 34.99,
+    "currency": "USD",
+    "stock": 60,
+    "rating": 4.3,
+    "tags": ["coffee", "kitchen", "appliance"],
+    "description": "Electric burr grinder with 15 grind settings."
+  },
+  {
+    "id": "P3002",
+    "name": "BrewMaster Coffee Maker",
+    "category": "Kitchen",
+    "price": 59.99,
+    "currency": "USD",
+    "stock": 25,
+    "rating": 4.1,
+    "tags": ["coffee", "kitchen", "appliance"],
+    "description": "12-cup programmable drip coffee maker."
+  },
+  {
+    "id": "P4001",
+    "name": "UrbanCarry Backpack",
+    "category": "Bags",
+    "price": 44.99,
+    "currency": "USD",
+    "stock": 33,
+    "rating": 4.4,
+    "tags": ["backpack", "bag", "travel", "laptop"],
+    "description": "Water-resistant backpack with padded 15-inch laptop sleeve."
+  },
+  {
+    "id": "P5001",
+    "name": "GlowLux Desk Lamp",
+    "category": "Home",
+    "price": 27.99,
+    "currency": "USD",
+    "stock": 50,
+    "rating": 4.0,
+    "tags": ["lamp", "desk", "home", "led"],
+    "description": "Adjustable LED desk lamp with 3 brightness modes."
+  }
+]
